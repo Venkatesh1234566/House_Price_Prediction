@@ -1,0 +1,116 @@
+*{
+    padding:0;
+    margin:0;
+}/*
+body{
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(0deg,transparent,rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628),rgba(0, 0, 0, 0.628)),url(https://www.livehome3d.com/assets/img/social/how-to-design-a-house.jpg);
+    opacity: 0.5;
+}*/
+.image{
+    width:100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image:url(https://www.livehome3d.com/assets/img/social/how-to-design-a-house.jpg);
+    position: relative;
+    
+}
+.image-overlay{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(12, 12, 17,0.7);
+    position: absolute;
+}
+.box{
+    height: 335px;
+    width: 700px;
+    border: 1px solid rgb(239, 236, 235);
+    margin-top: 5%;
+    margin-left: 40%;
+    background-color: rgba(30, 28, 28, 0.5);
+    position: absolute;
+}
+.content{
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+}
+h1{
+    word-spacing: 30px;
+}
+.line{
+    margin-top: 5%;
+    border-width: 1px
+}
+
+.row1{
+    padding-top: 3%;
+    width:700px;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+}
+.row11{
+    width: 400px;
+}
+.row2{
+    padding-top: 17%;
+    width:700px;
+    height: 80px;
+    
+    display: flex;
+}
+.row21{
+    padding-left:6.7%;
+}
+.row22{
+    padding-left:40%;
+}
+.row3{
+    padding-top: 3%;
+    padding-left: 41%;
+}
+.location{
+    width: 100%;
+    height: 30px;
+}
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+input{
+    border: none; 
+    border: 1px solid rgb(23, 24, 24); 
+    border-radius: 8px;;
+}
+select{
+    border: none; 
+    border: 1px solid rgb(23, 24, 24); 
+    border-radius: 8px;;
+}
+.reg{
+    border-radius: 8px;
+    background-color: rgba(30, 28, 28, 0.5);
+    font-family: "Times New Roman", Times, serif;
+    color: aliceblue;
+    font-size: 30px;
+    border: 1px solid rgb(244, 247, 247); 
+
+}
+.reg:hover{
+    background-color: aliceblue;
+    color: rgb(9, 9, 9);
+}
+.predict{
+    padding-top: 2%;
+    text-align: center;
+    color: aliceblue;
+    
+}
